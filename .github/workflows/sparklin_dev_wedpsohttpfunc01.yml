@@ -25,6 +25,9 @@ jobs:
         with:
           dotnet-version: ${{ env.DOTNET_VERSION }}
 
+      - name: Clean Output Directory
+        run: rm -rf ./output
+
       - name: 'Resolve Project Dependencies Using Dotnet'
         shell: pwsh
         run: |
@@ -40,3 +43,5 @@ jobs:
           slot-name: 'Production'
           package: '${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}/output'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_112FD3C5C11C4CBE82D8D1C95E1BD536 }}
+        env: 
+          AZURE_FUNCTIONS_LOG_LEVEL: 'Information'
