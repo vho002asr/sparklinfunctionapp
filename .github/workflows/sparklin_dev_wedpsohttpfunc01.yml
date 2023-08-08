@@ -37,7 +37,7 @@ jobs:
         id: fa
         with:
           app-name: 'wedpsohttpfunc01'
-          slot-name: 'Dev/Test'
+          slot-name: 'Production'
           package: '${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}/output'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_112FD3C5C11C4CBE82D8D1C95E1BD536 }}
         env: 
