@@ -26,7 +26,7 @@ jobs:
           dotnet-version: ${{ env.DOTNET_VERSION }}
 
       - name: Clean Output Directory
-        run: rm -rf ./output
+        run: rm ./output
 
       - name: 'Resolve Project Dependencies Using Dotnet'
         shell: pwsh
