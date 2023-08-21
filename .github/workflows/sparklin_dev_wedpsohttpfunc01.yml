@@ -39,8 +39,8 @@ jobs:
           app-name: 'wedpsohttpfunc01'
           slot-name: 'Production'
           package: '${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}/output'
-          scm-do-build-during-deployment: true
-          enable-oryx-build: true          
+          scm-do-build-during-deployment: false
+          enable-oryx-build: false          
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_112FD3C5C11C4CBE82D8D1C95E1BD536 }}
         env: 
           AZURE_FUNCTIONS_LOG_LEVEL: 'Information'
