@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAASRoJfY1YN0Wog40hTL2LhAAAAAACAAAAAAAQZgAAAAEAACAAAAD8oewOLP7nG6Fz/X9btb6tPBEdBHZTq/Vpl+JzZlix9QAAAAAOgAAAAAIAACAAAACxwE9y2StEGmUKkWn28StBOKmboaiUo4VCV0uPUO6t6oAAAADo25KHHRhUujnaOmYnk9EtHY6cmu2PID4Bxk5r7TMOzHuufh9mkg2SrFJGG/ddA+ze7M7CRgPj0T5bQljr+EIzDRnL7eEm+k7ddAo7nbk+frGRWfZbtewFxXPb7n0kgoRdrvo0rAahLhYtixbiDlrteGSdsKglVLJrWnTOrMgqVEAAAAB8wQjqbI+jmzZgiphPWngM1OZriVxcNVLRaP7G30Q7+tP1TsjeRhGKgUCn7g31EXqxfeNEFmRkTvRZztm3ATOS</EncryptedPassword>
+  </PropertyGroup>
+</Project>
